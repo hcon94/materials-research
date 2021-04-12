@@ -3,5 +3,6 @@ units==0.6
 pillow
 numpy
 scipy
+matplotlib
 imageio
 pandas==0.25.1
