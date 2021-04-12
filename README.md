@@ -15,9 +15,9 @@ Requirements can be installed with:
 ```bash
 
 conda create -n cabanalab python=3.6
-source activate cabanalab
-git clone git@github.com:michaelplews/materials-research.git
-pip3 install -r materials-research/requirements.txt
+conda activate cabanalab
+git clone git@github.com:hcon94/materials-research.git
+pip3 install -r materials-research/requirementsfix.txt
 pip3 install ipykernel
 ipython kernel install --user --name=cabanalab
 
